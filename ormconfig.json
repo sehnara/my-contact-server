@@ -1,10 +1,11 @@
 {
     "type": "postgres",
-    "host": "ec2-3-214-136-47.compute-1.amazonaws.com",
+    "host": "ec2-3-214-136-47.compute-1.amazonaws.co",
     "port": 5432,
     "username": "ebsujdenqzqoyh",
     "password": "813f0fd90f60e70b2c45462191d86d9e8c370ea38cc8f8e6497b253afce91df7",
     "database": "db7b7i5pttue9f", 			
     "entities": ["dist/**/*.entity{.ts,.js}"],
-    "synchronize": true
+    "synchronize": true,
+    "logging": true
   }
